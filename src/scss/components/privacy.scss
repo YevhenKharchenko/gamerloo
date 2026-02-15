@@ -1,11 +1,20 @@
 .privacy-body {
+  .header {
+    background: #c0adc0;
+  }
+
   .header-bg-wrapper {
     background-image: none;
   }
 }
 
 .policy-section {
-  background: #f9d0a0;
+  background: linear-gradient(
+    180deg,
+    #c0adc0 7.21%,
+    #ebd5b0 60.1%,
+    #e0aba5 100%
+  );
   padding-top: 126px;
   padding-bottom: 80px;
 
@@ -16,25 +25,27 @@
 }
 
 .policy-main-title {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  font-size: 38px;
-  line-height: 1.5;
+  font-size: 28px;
+  line-height: 1.2;
+  text-transform: uppercase;
   text-align: center;
-  color: #205144;
+  color: #2194c3;
   margin-bottom: 32px;
 
   @include media(desktop) {
+    font-size: 36px;
     margin-bottom: 40px;
   }
 }
 
 .policy-title {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #1e1e1e;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -42,11 +53,11 @@
 }
 
 .policy-text {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #1e1e1e;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -62,11 +73,11 @@
 }
 
 .policy-item {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #1e1e1e;
   margin-bottom: 8px;
 
   &:last-child {

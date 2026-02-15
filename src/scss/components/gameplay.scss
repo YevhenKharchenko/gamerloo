@@ -1,12 +1,9 @@
 .gameplay-section {
-  padding-top: 80px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+  background: #b2e0d5;
+  padding-top: 35px;
+  padding-bottom: 35px;
 
   @include media(desktop) {
-    padding-top: 150px;
-    max-width: 1440px;
   }
 }
 
@@ -15,59 +12,59 @@
   }
 }
 
-.gameplay-title {
+.gameplay-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
   @include media(desktop) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 191px;
+  }
+}
+
+.gameplay-img {
+  @include media(desktop) {
+    min-width: 217px;
   }
 }
 
 .gameplay-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 
   @include media(desktop) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: start;
-    gap: 20px;
+    gap: 22px;
+    max-width: 350px;
   }
 }
 
 .gameplay-list-item {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  align-items: start;
+  gap: 8px;
 
   @include media(desktop) {
-    width: 100%;
-    max-width: 630px;
-
-    &:nth-child(3) {
-      flex-direction: row-reverse;
-    }
-
-    &:nth-child(4) {
-      flex-direction: row-reverse;
-    }
   }
 }
 
-.gameplay-img {
-  min-width: 197px;
+.puzzle-icon {
+  min-width: 36px;
 
   @include media(desktop) {
   }
 }
 
 .gameplay-item-text {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #3e332b;
+  color: #1e1e1e;
 
   @include media(desktop) {
-    max-width: 305px;
   }
 }

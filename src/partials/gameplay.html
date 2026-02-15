@@ -1,53 +1,64 @@
 <section class="section gameplay-section" id="gameplay">
-  <div class="container gameplay-container">
-    <h2 class="section-title gameplay-title">How To Play</h2>
-    <ul class="gameplay-list">
-      <li class="gameplay-list-item">
-        <img
-          class="gameplay-img"
-          src="./img/gameplay/gameplay-img1.png"
-          alt="Screenshot of the game"
-          width="197"
-          height="197"
-          loading="lazy"
-        />
-        <p class="gameplay-item-text">Slide wooden blocks across the board</p>
-      </li>
-      <li class="gameplay-list-item">
-        <img
-          class="gameplay-img"
-          src="./img/gameplay/gameplay-img2.png"
-          alt="Screenshot of the game"
-          width="197"
-          height="197"
-          loading="lazy"
-        />
-        <p class="gameplay-item-text">Match colors to unlock paths</p>
-      </li>
-      <li class="gameplay-list-item">
-        <img
-          class="gameplay-img"
-          src="./img/gameplay/gameplay-img3.png"
-          alt="Screenshot of the game"
-          width="197"
-          height="197"
-          loading="lazy"
-        />
-        <p class="gameplay-item-text">Free blocked elements step by step</p>
-      </li>
-      <li class="gameplay-list-item">
-        <img
-          class="gameplay-img"
-          src="./img/gameplay/gameplay-img4.png"
-          alt="Screenshot of the game"
-          width="197"
-          height="197"
-          loading="lazy"
-        />
-        <p class="gameplay-item-text">
-          Complete the level using logical sequencing
-        </p>
-      </li>
-    </ul>
+  <div class="gameplay-bg-wrapper">
+    <div class="container gameplay-container">
+      <h2 class="section-title gameplay-title">How It Works</h2>
+      <div class="gameplay-content-wrapper">
+        <picture>
+          <source
+            srcset="./img/gameplay/gameplay-img-desk.png"
+            media="(min-width: 1440px)"
+            width="217"
+            height="289" />
+          <source
+            srcset="./img/gameplay/gameplay-img-mob.png"
+            width="198"
+            height="264" />
+          <img
+            class="gameplay-img"
+            src="./img/gameplay/gameplay-img-mob.png"
+            alt="Screenshot of the game"
+            width="198"
+            height="264"
+            loading="lazy"
+        /></picture>
+        <ul class="gameplay-list">
+          <li class="gameplay-list-item">
+            <svg class="puzzle-icon" width="36" height="40">
+              <use href="./img/sprite.svg#icon-star"></use>
+            </svg>
+            <p class="gameplay-item-text">Open the daily puzzle</p>
+          </li>
+          <li class="gameplay-list-item">
+            <svg class="puzzle-icon" width="36" height="40">
+              <use href="./img/sprite.svg#icon-star"></use>
+            </svg>
+            <p class="gameplay-item-text">Scan the letter grid</p>
+          </li>
+          <li class="gameplay-list-item">
+            <svg class="puzzle-icon" width="36" height="40">
+              <use href="./img/sprite.svg#icon-star"></use>
+            </svg>
+            <p class="gameplay-item-text">Select words by swiping or tapping</p>
+          </li>
+          <li class="gameplay-list-item">
+            <svg class="puzzle-icon" width="36" height="40">
+              <use href="./img/sprite.svg#icon-star"></use>
+            </svg>
+            <p class="gameplay-item-text">
+              Complete the puzzle at your own pace
+            </p>
+          </li>
+          <li class="gameplay-list-item">
+            <svg class="puzzle-icon" width="36" height="40">
+              <use href="./img/sprite.svg#icon-star"></use>
+            </svg>
+            <p class="gameplay-item-text">
+              Take your time with it - there's no timer ticking away or anything
+              stressful like that.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>

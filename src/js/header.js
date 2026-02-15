@@ -13,7 +13,7 @@ function onMenuButtonClick() {
 
   contextMenuIsOpen = true;
   contextMenu.classList.add('is-open');
-  menuBtn.classList.add('closed');
+  // menuBtn.classList.add('closed');
   closeContextBtn.classList.add('is-open');
   headerWrapper.classList.add('header-bg-wrapper-context');
   header.classList.add('header-context');
@@ -27,7 +27,7 @@ function onCloseContextButtonClick() {
   contextMenuIsOpen = false;
   contextMenu.classList.remove('is-open');
   closeContextBtn.classList.remove('is-open');
-  menuBtn.classList.remove('closed');
+  // menuBtn.classList.remove('closed');
   headerWrapper.classList.remove('header-bg-wrapper-context');
   header.classList.remove('header-context');
 
@@ -64,7 +64,7 @@ const sections = sectionIds
 const observerOptions = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.7,
+  threshold: 0.8,
 };
 
 const observer = new IntersectionObserver(entries => {

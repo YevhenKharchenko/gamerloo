@@ -1,67 +1,119 @@
-<section class="section features-section" id="features">
+<section class="features-section section" id="features">
   <div class="features-bg-wrapper">
     <div class="container features-container">
-      <h2 class="section-title features-title">Key Features</h2>
-      <div class="features-content-wrapper">
-        <img
-          class="features-img"
-          src="./img/features/features-img-mob.png"
-          alt="Screenshot of the game"
-          width="375"
-          height="161"
-          loading="lazy"
-        />
-        <ul class="features-list">
-          <li class="features-list-item">
-            <svg class="puzzle-icon" width="32" height="32">
-              <use href="./img/sprite.svg#icon-puzzle"></use>
-            </svg>
-            <p class="features-item-text">Color-based block mechanics</p>
-          </li>
-          <li class="features-list-item">
-            <svg class="puzzle-icon" width="32" height="32">
-              <use href="./img/sprite.svg#icon-puzzle"></use>
-            </svg>
+      <h2 class="section-title features-title">Uniqueness</h2>
+      <p class="features-subtitle">
+        What makes Word Search Daily different? Well, it's:
+      </p>
+      <div class="features-swiper-container">
+        <ul class="swiper-wrapper features-swiper-wrapper">
+          <li class="swiper-slide features-slide">
+            <picture>
+              <source
+                srcset="./img/features/features-img1-desk.png"
+                media="(min-width: 1440px)"
+                width="305"
+                height="174" />
+              <source
+                srcset="./img/features/features-img1-mob.png"
+                width="335"
+                height="191" />
+              <img
+                class="features-img"
+                src="./img/features/features-img1-mob.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="191"
+                loading="lazy"
+            /></picture>
             <p class="features-item-text">
-              No rushing here - just pure puzzle-solving at your own pace
+              Fully optimized for smartwatch screens
             </p>
           </li>
-          <li class="features-list-item">
-            <svg class="puzzle-icon" width="32" height="32">
-              <use href="./img/sprite.svg#icon-puzzle"></use>
-            </svg>
-            <p class="features-item-text">
-              We've crafted hundreds of levels by hand - none of that lazy
-              auto-generated stuff here
-            </p>
+          <li class="swiper-slide features-slide">
+            <picture>
+              <source
+                srcset="./img/features/features-img2-desk.png"
+                media="(min-width: 1440px)"
+                width="305"
+                height="174" />
+              <source
+                srcset="./img/features/features-img2-mob.png"
+                width="335"
+                height="191" />
+              <img
+                class="features-img"
+                src="./img/features/features-img2-mob.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="191"
+                loading="lazy"
+            /></picture>
+            <p class="features-item-text">Easy to play with one hand</p>
           </li>
-          <li class="features-list-item">
-            <svg class="puzzle-icon" width="32" height="32">
-              <use href="./img/sprite.svg#icon-puzzle"></use>
-            </svg>
-            <p class="features-item-text">
-              Simple enough to pick up in minutes, but you'll be scratching your
-              head on the later levels
-            </p>
+          <li class="swiper-slide features-slide">
+            <picture>
+              <source
+                srcset="./img/features/features-img3-desk.png"
+                media="(min-width: 1440px)"
+                width="305"
+                height="174" />
+              <source
+                srcset="./img/features/features-img3-mob.png"
+                width="335"
+                height="191" />
+              <img
+                class="features-img"
+                src="./img/features/features-img3-mob.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="191"
+                loading="lazy"
+            /></picture>
+            <p class="features-item-text">Lightweight and fast to launc2</p>
           </li>
-          <li class="features-list-item">
-            <svg class="puzzle-icon" width="32" height="32">
-              <use href="./img/sprite.svg#icon-puzzle"></use>
-            </svg>
-            <p class="features-item-text">
-              Great for when you wanna relax but still flex those brain muscles
-              a bit
-            </p>
-          </li>
-          <li class="features-list-item">
-            <svg class="puzzle-icon" width="32" height="32">
-              <use href="./img/sprite.svg#icon-puzzle"></use>
-            </svg>
-            <p class="features-item-text">
-              Perfect if you prefer using your brain over your reflexes.
-            </p>
+          <li class="swiper-slide features-slide">
+            <picture>
+              <source
+                srcset="./img/features/features-img4-desk.png"
+                media="(min-width: 1440px)"
+                width="305"
+                height="174" />
+              <source
+                srcset="./img/features/features-img4-mob.png"
+                width="335"
+                height="191" />
+              <img
+                class="features-img"
+                src="./img/features/features-img4-mob.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="191"
+                loading="lazy"
+            /></picture>
+            <p class="features-item-text">Ideal for short breaks</p>
           </li>
         </ul>
+      </div>
+      <div class="controls features-controls">
+        <button
+          class="arrow-btn"
+          id="featuresLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="44" height="88">
+            <use href="./img/sprite.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <button
+          class="arrow-btn"
+          id="featuresRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="44" height="88">
+            <use href="./img/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
       </div>
     </div>
   </div>
